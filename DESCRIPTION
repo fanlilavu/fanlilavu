@@ -1,0 +1,12 @@
+Package: fanlilavu
+Type: Package
+Title: Nichtparametrische Signifikanztests zur Regressorauswahl
+Version: 0.1.0
+Authors@R: person("Ingo", "Lange", email = "ilange@mail.uni-mannheim.de", role = c("aut", "cre"))
+Description: Das Package ist Teil der Bachelorarbeit "Nichtparametrische Signifikanztests zur Regressorauswahl" (Universitaet Mannheim, 2016, Pruefer: Dr. Steinke). Insbesondere sind Funktionen zur Nichtparametrische Signifikanztests zur Regressorauswahl nach Fan und Li (1996) und Lavergne und Vuong (2000) enthalten.
+Imports:
+    np,
+    matrixStats
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
